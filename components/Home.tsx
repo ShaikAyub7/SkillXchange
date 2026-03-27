@@ -22,13 +22,6 @@ const HomePage = () => {
           eos, amet cupiditate laboriosam eveniet perferendis dolores ipsam
           ullam commodi reiciendis minus minima ab beatae distinctio aliquid,
           similique saepe velit. Ea, dicta voluptatem? Quisquam, enim corporis
-          aspernatur nostrum saepe at commodi eligendi consequatur fuga sunt!
-          Sed atque, molestiae autem voluptate quia harum ad commodi nisi?
-          Maiores necessitatibus blanditiis sit unde cum consequatur nemo eaque
-          non aperiam ipsum nisi ab voluptates autem expedita neque ipsam
-          laudantium eos dolor tenetur temporibus assumenda, quidem nostrum
-          officiis architecto? Esse obcaecati excepturi optio dolorum
-          praesentium!
         </p>
       </div>
     </div>

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div className="flex justify-around items-center">
-      <div className="p-10 bg-blue-50 flex items-center justify-around">
+    <div className="grid grid-cols-2 p-8 justify-around items-center">
+      <div className="p-10  flex items-center justify-around">
         <Image
           src={"./homeImage.svg"}
           width={500}
@@ -12,7 +12,7 @@ const HomePage = () => {
         />
       </div>
       <div className="p-10 w-full">
-        <h1>
+        <h1 className="text-4xl mb-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
           facilis.
         </h1>

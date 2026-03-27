@@ -8,7 +8,7 @@ const NavList = [
   },
   {
     name: "about",
-    href: "/",
+    href: "/about",
   },
   {
     name: "document",
@@ -18,7 +18,7 @@ const NavList = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around p-6 bg-amber-100 shadow-md">
+    <nav className="flex items-center justify-around p-6 bg-[#C9BEFF] shadow-md">
       <div>SkillXChange</div>
 
       <div>

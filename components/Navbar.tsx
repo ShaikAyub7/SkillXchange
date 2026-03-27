@@ -18,14 +18,14 @@ const NavList = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around p-6 bg-[#C9BEFF] shadow-md">
-      <div>SkillXChange</div>
+    <nav className="flex items-center justify-around p-6 bg-[#C9BEFF] shadow-md text-gray-700">
+      <div className="font-extrabold">SkillXChange</div>
 
       <div>
         <ul className="flex items-center justify-between gap-4">
           {NavList.map((item) => {
             return (
-              <Link href={item.href} key={item.name}>
+              <Link href={item.href} key={item.name} className="font-bold">
                 {item.name}
               </Link>
             );

@@ -1,3 +1,7 @@
+"use client";
+
+import { SignUpButton } from "@clerk/nextjs";
+import { Show, UserButton } from "@clerk/react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,7 +22,7 @@ const NavList = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around p-6 bg-[#C9BEFF] shadow-md text-gray-700">
+    <nav className=" fixed top-0 w-full flex items-center justify-around p-6 bg-[#C9BEFF] shadow-md text-gray-700 z-1000">
       <div className="font-extrabold">SkillXChange</div>
 
       <div>
@@ -30,6 +34,15 @@ const Navbar = () => {
               </Link>
             );
           })}
+
+          <SignUpButton>
+            <button className="  text-black rounded-full font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 cursor-pointer">
+              Sign Up
+            </button>
+          </SignUpButton>
+          <Show when="signed-in">
+            <UserButton />
+          </Show>
         </ul>
       </div>
     </nav>
